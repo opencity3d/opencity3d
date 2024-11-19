@@ -34,6 +34,17 @@
 <strong>OpenCity3D</strong> is a zero-shot approach for open-vocabulary 3D urban scene understanding.
 </p>
 
+### BibTex
+```
+@inproceedings{opencity3d2025,
+    title = {OpenCity3D: 3D Urban Scene Understanding with Vision-Language Models},
+    author = {Bieri, Valentin and Zamboni, Marco and Blumer, Nicolas S. and Chen, Qingxuan and Engelmann, Francis},
+    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
+    year = {2025},
+    organization = {IEEE}
+}
+```
+
 ---
 
 ## Setup Environment
@@ -45,22 +56,31 @@ git clone https://github.com/opencity3d/opencity3d.git
 
 Preparing Conda environment:
 ```
+# Create environment
 conda create -n opencity python
+# Install dependencies
+pip install -r requirements.txt
 
-......
-
+# Activate environment
 conda activate opencity
 ```
 
-</div>
-<h2 class="title is-3">BibTeX</h2>
-          <pre><code>
-@inproceedings{opencity3d2025,
-    title = {OpenCity3D: 3D Urban Scene Understanding with Vision-Language Models},
-    author = {Bieri, Valentin and Zamboni, Marco and Blumer, Nicolas S. and Chen, Qingxuan and Engelmann, Francis},
-    booktitle = {Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision (WACV)},
-    year = {2025},
-    organization = {IEEE}
-}</code></pre>
-    </div>
-</div>
+## Pipeline
+
+**Dataset Generation**
+
+**Training Embedding**
+
+**Projecting**
+
+## Dataset Structure
+
+
+
+## TODO list:
+- [ ] Update Readme
+- [ ] release the arhxiv camera-ready version
+- [ ] release the code of the embedding training
+- [ ] release the preprocessed dataset and the pretrained embeddings
+- [ ] release the code of the visulization cookbook
+- [ ] release the code of experienment tasks
