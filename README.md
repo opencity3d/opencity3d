@@ -56,9 +56,7 @@ git clone https://github.com/opencity3d/opencity3d.git
 
 Preparing Conda environment:
 ```
-# Create environment
-conda create -n opencity python
-# Install dependencies
+# Create environment and install dependencies:
 conda env create --file environment.yml
 
 # Activate environment
