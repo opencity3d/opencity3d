@@ -1,5 +1,5 @@
 <p align="center">
-  <h1 align="center">OpenCity3D🏙️: Open-Vocabulary 3D Instance Segmentation</h1>
+  <h1 align="center">OpenCity3D🏙️: 3D Urban Scene Understanding with Vision-Language Models</h1>
 <!-- # OpenCity3D: What do Vision-Language Models know about Urban Environments? (WACV 2025) -->
     <p align="center">
         <a>Valentin Bieri</a><sup>1</sup>, &nbsp;&nbsp;&nbsp; 
