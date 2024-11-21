@@ -73,7 +73,7 @@ conda activate opencity
 
 - Export the mesh with .glb file and render with [Meshlab](https://www.meshlab.net/). Save the object file (.obj) together with the texture images.
 
-- Create a ``data` folder and a folder under `data` with scene name. To obtain the RGB and depth image, you should run `generate_dataset.py`
+- Create a `data` folder and a folder under `data` with scene name. To obtain the RGB and depth image, you should run `generate_dataset.py`
 
 Your dataset should have the following structure:
 
