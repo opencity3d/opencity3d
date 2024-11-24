@@ -1,25 +1,14 @@
-name: opencity
+name: opencity3d
 channels:
   - pytorch
   - conda-forge
   - defaults
 dependencies:
-  - open-clip-torch
-  - cudatoolkit=11.6
-  - plyfile=0.8.1
-  - python=3.7.13
-  - pip=22.3.1
-  - pytorch=1.12.1
-  - torchaudio=0.12.1
-  - torchvision=0.13.1
-  - tqdm
-  - opencv
-  - tensorboard
-  - jaxtyping
+  - python=3.10
   - matplotlib
-  - typing
-  - pathlib
   - pip:
-    - submodules/segment-anything-langsplat
-    - submodules/langsplat-rasterization
-    - submodules/simple-knn
+    - pyrender==0.1.45
+    - scipy==1.13
+    - trimesh==4.5.2
+    - tqdm
+    - numpy<2
